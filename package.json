@@ -1,0 +1,30 @@
+{
+  "name": "react-skleton",
+  "version": "1.0.0",
+  "description": "React skleton makin",
+  "main": "index.js",
+  "scripts": {
+    "start":"watchify -t [ babelify --presets [ react ] ] src/main.jsx -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zahid492/React.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Zahidur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zahid492/React/issues"
+  },
+  "homepage": "https://github.com/zahid492/React#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "watchify": "^3.7.0"
+  }
+}
